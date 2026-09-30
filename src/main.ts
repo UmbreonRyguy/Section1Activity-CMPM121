@@ -21,6 +21,6 @@ const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
   counter++;
-  counterElement.textContent = "meow! " + counter.toString();
+  counterElement.textContent = "meoww! " + counter.toString();
   console.log("I have these thingies:", button, counterElement, counter);
 });
